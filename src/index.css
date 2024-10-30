@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("/assets/fonts/static/HankenGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("/assets/fonts/static/HankenGrotesk-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("/assets/fonts/static/HankenGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* For fonts located in the fonts folder */
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
